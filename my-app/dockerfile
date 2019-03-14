@@ -1,4 +1,4 @@
 #!/bin/bash
 FROM sdssingh2632/container-base
 WORKDIR /data
-CMD ./build.sh
+ENTRYPOINT ["./data/build.sh"]
