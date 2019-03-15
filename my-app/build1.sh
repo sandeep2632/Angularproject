@@ -1,3 +1,3 @@
 npm install
 ng build
-cp -R dist output/
+cp -a /dist/. /output/
