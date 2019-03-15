@@ -1,3 +1,3 @@
 npm install
 ng build
-cp -avr  /data/dist/ /data/output/
+cp -a /data/dist/. /data/output/
