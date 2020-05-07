@@ -1,3 +1,4 @@
 FROM sdssingh2632/container-base
 WORKDIR /data
 ENTRYPOINT ["sh","-c","/data/build.sh"]
+
